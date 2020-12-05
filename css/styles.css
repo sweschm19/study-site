@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+ background-color: lightgray;
+}
+
+body h1 {
+    color: black;
+    background-color: rgba(90, 50, 50);
+    opacity: 0.5;
+}
+#global_navi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#global_navi ul li a {
+    display: block;
+    padding: 5px 25px;
+}
+p img {
+    float: left;
+}
+.inner h2 {
+    float: clear;
+}
+.box {
+    display: flex;
+}
+.box-itens {
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    background-color: black;
+}
