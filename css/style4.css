@@ -1,0 +1,147 @@
+/* @media (min-width: 600px) and (max-width: 800px) {
+   
+  } */
+/*共通スタイル*/
+body {
+  margin: 0;
+}
+
+.image {
+  background: #f7abc1;
+  height: 100px;
+  }
+
+  .text {
+    height: 100px;
+    background-color: lightblue;
+    width: 25%;
+  }
+ /*aside comments:ラージサイズ以外の時は消す*/
+  aside {
+    background-color: lightgray;
+    display: none;
+    width: auto;
+  }  
+
+  .content {
+    width: 200px;
+    background-color: blue;
+    width: 25%;
+    text-align: center;
+  } 
+
+/* small screen Mobile First*/
+/* For Mobile site*/
+@media (min-width: 600px) {
+  section {
+    display: flex;
+  }
+  .image {
+    background: #f7abc1;
+    height: 200px;
+    width: 25%;
+  }
+
+  .text {
+    flex: 1;
+    height: 200px;
+    background-color: lightblue;
+  }
+
+   aside {
+     float: 1;
+   }
+}
+/* large screen*/
+@media (min-width: 800px) {
+  section {
+    width: 800px;
+    margin: 0 auto;
+  }
+  aside {
+    display: block;
+  }
+}
+
+/* @media (min-width: 0px) and (max-width: 559px) {
+　　
+} */
+
+/* @media (min-width: 600px) and (max-width: 799px) {
+
+}
+@media (min-width: 800px) {
+
+} */
+
+/* common
+/* small screen */
+
+/* aside {
+  display: none;
+  text-align: center;
+  width: 33%;
+} */
+
+/* .image {
+  background: pink;
+  height: 100px;
+  width: 33%;
+  text-align: center;
+} */
+
+/* .text {
+  background: silver;
+  height: 100px;
+  width: 33%;
+  text-align: center;
+} */
+
+.content {
+  width: 200px;
+  background-color: blue;
+  width: 25%;
+  text-align: center;
+}  
+
+/* .content2 {
+  background-color: black;
+  width: 150px;
+} */
+
+/* medium screen */
+/* @media (min-width: 600px) {
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-height: 900px;
+  }
+
+  .image {
+    width: 200px;
+  }
+
+  .text {
+    flex: 1;
+  }
+  .content {
+    width: 200px;
+  }
+} */
+
+
+
+/*large screen */
+/* @media (min-width: 800px) { */
+  /*section {
+    width: 800px;
+    margin: 0 auto;
+  }
+  aside {
+    display: block;
+    background: plum;
+    width: 160px;
+  }
+  
+} */

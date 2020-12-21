@@ -1,0 +1,153 @@
+css/styles.css
+
+// body css
+body {
+  margin: 0;
+}
+
+// 共通要素
+.common_subtitle {
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.common_section {
+  padding: 70px 5%;
+  margin: 0 auto;
+}
+
+// ヘッダー
+header {
+  background: red;
+  height: 100px;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header_title {
+  background: black;
+  width: 100px;
+  height: 50px;
+}
+
+header nav {
+  background: black;
+  width: 400px;
+  height: 50px;
+}
+
+
+// fv
+.firstview {
+  background: blue;
+  height: 600px;
+  display: flex;
+}
+
+.firstview .firstview_title {
+  margin: auto;
+  height: 100px;
+  width: 400px;
+  background: black;
+}
+
+
+// 自己紹介
+.aboutme {
+  padding: 70px 5%;
+  background: green;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutme .aboutme_img {
+  width: 49%;
+  height: 333px;
+  background: black;
+}
+
+.aboutme .aboutme_content {
+  width: 49%;
+  height: 333px;
+  background: black;
+}
+
+// スキル
+.skill {
+  background: gray;
+}
+
+.skill .skill_title {
+  height: 50px;
+  background: black;
+}
+
+.skill .skill_content {
+  height: 400px;
+  background: black;
+}
+
+// 制作実績
+.works {
+  background: gold;
+}
+
+.works .works_title {
+  height: 50px;
+  background: black;
+}
+
+.works ul {
+  height: 400px;
+  background: black;
+}
+
+// 経歴
+.timeline {
+  background: fuchsia;
+}
+
+.timeline .timeline_title {
+  height: 50px;
+  background: black;
+}
+
+.timeline .timeline_content {
+  height: 400px;
+  background: black;
+}
+
+// 問い合わせ
+.contact {
+  background: aqua;
+}
+
+.contact .contact_title {
+  height: 50px;
+  background: black;
+}
+
+.contact form {
+  height: 400px;
+  background: black;
+}
+
+// フッター
+footer {
+  padding: 20px 0;
+  background: navy;
+}
+
+footer ul {
+  width: 400px;
+  height: 50px;
+  background: black;
+  margin: 0 auto;
+}
+
+footer p {
+  text-align: center;
+
+

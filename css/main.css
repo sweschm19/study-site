@@ -1,0 +1,400 @@
+
+body {
+  margin: 0;
+}
+
+/* 共通要素 */
+.common_subtitle {
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.common_section {
+  padding: 70px 5%;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+header {
+  /* background: red; */
+  height: 60px;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header_title h1 a:hover {
+  color: lightgray;
+}
+header .header_title h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+} 
+
+header nav ul li a{
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+} 
+
+header nav ul li a:hover {
+  color: lightblue;
+}
+
+header nav {
+  background: white;
+  width: 400px;
+  height: 100px;
+  color:  black;
+  display: flex;
+  float: right;
+}
+
+header nav ul a {
+  display: inline;
+}
+
+/*  fv FRom */
+.firstview {
+  background: blue;
+  height: 600px;
+  width: 100%;
+  background-image: url(../img/scene.JPG);
+  background-image: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.firstview .firstview_title {
+  margin: auto;
+  height: 100px;
+  width: 400px;
+  background: black;
+}
+.firstview .firstview_title h2 {
+  margin: 20px;
+  line-height: 2em;
+  color: white;
+  opacity: 0.7;
+}
+
+.firstview .firstview_title h2 span {
+  font-size: 40px;
+  color: white;
+  opacity: 0.7;
+}
+/* fv To*/
+/* 自己紹介 From */
+.introduction {
+  padding: 70px 5%;
+  background: lightblue;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  opacity: 0.7;
+}
+
+.introduction .introduction_img img {
+  width: 536px;
+  height: 333px;
+  border-radius: 10px;
+}
+.introduction .introduction_img p {
+line-height: 1em;
+margin-left: 30px;
+color: white;
+}
+
+.introduction .introduction_content {
+  width: 49%;
+  height: 333px;
+}
+.introduction .introduction_content h2 {
+  margin-block-start: 0;
+}
+
+.introduction .introduction_content ul {
+ list-style: none;
+ display: flex;
+ padding-inline-start: 0;
+ margin-block-end: 0; 
+ margin-top: 40px;
+}
+
+.introduction .introduction_content ul li {
+  margin-right: 20px;
+}
+
+.introduction .introduction_content ul li a {
+  transition: all 0.3s ease 0s;
+}
+.introduction .introduction_content ul li a:hover {
+  fill: lightgreen;
+}
+/* 自己紹介 To */
+/* スキル From */
+.skill {
+  background: gray;
+}
+
+.skill .skill_content table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  background: white;
+}
+
+.skill .skill_content table tr {
+  border-bottom: solid 1px #eee;
+  cursor: pointer;
+  color: black;
+}
+
+.skill .skill_content table tr:hover {
+  background-color: lightgreen;
+}
+.skill .skill_content table th, .skill_content table td {
+  text-align: center;
+  width: 25%;
+  padding: 15px 0;
+}
+
+.skill .skill_content table td {
+  background-size: 25px;
+  background-position: left 70px center;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.skill .skill_content table td.icon.html {
+  background-image: url(../img/html5.png);
+}
+.skill .skill_content table td.icon.css {
+  background-image: url(../img/css.png);
+}
+.skill .skill_content table td.icon.js {
+  background-image: url(../img/js.png);
+}
+.skill .skill_content table td.icon.vue {
+  background-image: url(../img/vue.png);
+}
+.skill .skill_content table td.icon.nuxt {
+  background-image: url(../img/nuxt.png);
+}
+.skill .skill_content table td.icon.fire {
+  background-image: url(../img/sample.png);
+}
+/* .skill .skill_content {
+  height: 400px;
+  background: rgba(131, 208, 230);
+  color: white;
+}
+
+.skill .skill_content > p {
+  opacity: 0.7;
+} */
+/* スキル From */
+/*  制作実績 work To */
+.works {
+  background: white;
+}
+
+.works .works_title {
+  height: 50px;
+  background: lightgray;
+}
+
+.works ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-inline-start: 0;
+  background: blue;
+}
+
+.works ul li {
+  border: 2px solid black;
+  width: 32%;
+  border-radius: 5px;
+}
+
+.works ul li img {
+  width: 100%;
+  border-radius: 8px 8px  0 0;
+}
+
+.works ul li .card_content {
+  padding: 10px 20px;
+}
+
+.works ul li .card_content h3 span a {
+  font-size: 14px;
+}
+
+.works ul li .card_content p {
+  font-size: 14px;
+}
+
+.works ul li .card_content p a {
+  font-size: 12px;
+  border-bottom: 1px dashed black;
+}
+.works ul li .card_content .card_number {
+  text-align: right;
+  font-size: 22px;
+}
+/*work To*/
+/* 経歴 carearsheet To*/
+.carearsheet {
+  background-color: white;
+}
+
+.carearsheet .carearsheet_content {
+ height: 400px; 
+}
+
+.carearsheet .carearsheet_title {
+  height: 50px;
+  background: rgb(214, 165, 176)
+}
+
+.carearsheet .carearsheet_content .carearsheet_line {
+  width: 50%;
+  box-sizing: border-box;
+  /* height: 400px; */
+  border-right: 2px dashed black;
+  padding-bottom: 40px;
+  display: flex;
+  position: relative;
+  /* background: rgb(232, 63, 99); */
+  transition: all 1s ease-in-out 0s;
+  /* color: white;
+  opacity: 0.7; */
+}
+
+.carearsheet .carearsheet_content .carearsheet_line:hover .content_box {
+  border: 2px dashed black;
+} 
+
+.carearsheet .carearsheet_content .carearsheet .carearsheet_content:hover h5 {
+  color: #e65f78;
+}
+.carearsheet .carearsheet_content .carearsheet .carearsheet_content .carearsheet .carearsheet_content_yoko {
+  width: 20%;
+  height: 60px;
+  border-bottom: 2px dashed black;
+}
+
+.carearsheet .carearsheet_content .carearsheet_line .carearsheet_box {
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  text-align: right;
+  transition: all 0.3s ease 0s;
+}
+.carearsheet .carearsheet_content .carearsheet_line .carearsheet_box h4 {
+  color: green;
+  font-size: 15px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.carearsheet .carearsheet_content .carearsheet_line .carearsheet_box h5 {
+  font-size: 22px;
+  line-height: 33px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.carearsheet .carearsheet_content .carearsheet_line .carearsheet_box p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.carearsheet .carearsheet_content.carearsheet_line:nth-child(2) {
+  width: 50.2%;
+  box-sizing: border-box;
+  border-left: 2px dashed green;
+  border-right: none;
+  padding-bottom: 40px;
+  margin: 0 0 0 auto;
+}
+
+.carearsheet .carearsheet_content .carearsheet_line:nth-child(2) .content_second {
+  text-align: left;
+  margin: 0 0 0 auto;
+}
+
+.carearsheet .carearsheet_content .carearsheet_line:first-child::before {
+  content: "";
+  width: 11px;
+  height: 11px;
+  background: #cfcdcd;
+  box-sizing: content-box;
+  border: 5px solid #fff;
+  box-shadow: 0 0 0 2px #cfcdcd;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -11px;
+  top: -10px;
+}
+
+.carearsheet .carearsheet_content .carearsheet_line:last-child::after {
+  content: "";
+  width: 11px;
+  height: 11px;
+  background: #cfcdcd;
+  box-sizing: content-box;
+  border: 5px solid #fff;
+  box-shadow: 0 0 0 2px #cfcdcd;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -11px;
+  bottom: 0;
+}
+
+
+/* 経歴 carearsheet From*/
+/* 問い合わせ */
+.contact {
+  background: aqua;
+}
+
+.contact .contact_title {
+  height: 50px;
+  background: black;
+}
+
+.contact form {
+  height: 400px;
+  background: black;
+}
+
+/* フッター */
+footer {
+  padding: 20px 0;
+  background: navy;
+}
+
+footer ul {
+  width: 400px;
+  height: 50px;
+  background: black;
+  margin: 0 auto;
+}
+
+footer p {
+  text-align: center;
+
+
